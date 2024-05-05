@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+.paper-custom {
+  padding: '36px';
+  height: '100vh';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-custom {
+  display: flex !important;
+  flex-direction: row !important;
+  margin-left: 24px !important;
+  margin-right: 44px !important;
+  padding: 0 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.form-element {
+  width: 90% !important;
+  margin: 12px !important;
+}
+
+.data-container {
+  overflow-y: scroll;
+  padding: 36px;
+  height: 80vh;
+}
+
+@media screen and (max-width: 650px) {
+
+  .paper-custom {
+    padding: 12px;
+    height: 100vh;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .form-custom {
+    flex-direction: column !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  .form-element {
+    width: 95% !important;
+    margin: 12px !important;
+  }
+
+  .data-container {
+    overflow-y: scroll;
+    padding: 12px;
+    height: 80vh;
   }
 }

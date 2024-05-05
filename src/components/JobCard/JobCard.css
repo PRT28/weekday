@@ -1,0 +1,90 @@
+.job-card {
+    width: 450px;
+    border-radius: 20px !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px 0px !important;
+    padding: 24px;
+}
+
+.job-card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+img {
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+}
+
+.company {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    color: #8b8b8b;
+}
+
+.role {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.location {
+    font-size: 11px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.est-salary {
+    font-weight: 400;
+}
+
+.about-comp {
+    margin: 0px;
+    font-family: "Lexend", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.jd-container {
+    position: relative;
+}
+
+.job-description {
+    height: 350px;
+    overflow: hidden;
+    mask-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+.center {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.min-exp {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    color: #8b8b8b;
+}
+
+.exp {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .job-card {
+        width: 100%;
+        border-radius: 20px !important;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px 0px !important;
+        padding: 24px;
+    }
+  }
